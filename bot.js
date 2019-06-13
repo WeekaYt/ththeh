@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("3bker");
-var prefix = "MR";
+var prefix = "*";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "la")) {
